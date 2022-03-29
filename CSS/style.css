@@ -1,0 +1,36 @@
+@import url(modal.css);
+@import url(rodape.css);
+@import url(top.css);
+@import url(imgans.css);
+@import url(carrosel.css);
+@import url(tooltip.css);
+@import url(linhashadow.css);
+@import url(colecoes.css);
+@import url(dropMenu.css);
+
+body, h1, h2, h3, section, nav, div, footer, a, p{
+padding: 0;
+margin: 0;  
+text-decoration: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+img{
+  max-width: 100%;
+}
+
+body{font-family: "roboto";
+overflow-x: hidden;}
+
+.texto-pequeno{font-size: 12px;}
+.texto-médio{font-size: 24px; }
+.texto-grande{font-size: 32px;}
+.texto-grande-maior{font-size: 48px;}
+.texto-enorme{font-size: 64px;}
+
+
+
+

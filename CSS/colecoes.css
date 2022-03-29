@@ -1,0 +1,73 @@
+.info-bg{
+  background:url(../img/geral/cena-de-futebol-a-noite-partida-com-jogador-de-uniforme-branco-e-azul-chutando-o-penalti_207634-2446.webp) center;
+  height: 500px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: flex;
+  text-shadow: 2px 2px 5px white;
+  place-content: center;
+  place-items: center;
+  margin-bottom: 60px;
+  font-size: 32px;
+}
+.info-bg h1{
+  backdrop-filter: blur(4px);
+  padding: 170px;
+}
+
+.colecoes-bg{
+
+  padding-bottom: 200px;
+}
+
+
+.colecoes-container h1{
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 64px;
+  margin-bottom: 30px;
+
+}
+.cole-img{
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+justify-items:center;
+
+  }
+
+.cole-item{
+  height: 580px;
+  width: 600px;
+  border-radius: 4px;
+  border: 1px solid rgb(163, 163, 163);
+  cursor: pointer;
+  box-shadow: 0px 2px 10px 1px rgba(0, 0, 0, 0.5);
+
+}
+.cole-item:hover{
+border: 1px solid rgb(138, 138, 138);
+transition: 0.9s;
+}
+.cole-item img{
+border-radius: 4px;
+width: 100%;
+height: 100%;
+padding-bottom:20px ;
+filter: grayscale();
+transition: 0.3s;
+overflow: hidden;
+}
+
+.cole-item img:hover{
+  filter: none;
+  transition: 0.5s;
+
+}
+
+.numero{color: rgb(12, 110, 3);}
+
+
+
+

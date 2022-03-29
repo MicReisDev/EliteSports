@@ -1,0 +1,15 @@
+.tooltip{
+  position: absolute;
+  z-index: 800;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 0 0 2px, black;
+  padding: 0.5rem;
+  color: white;
+  font-family: "roboto";
+  font-weight: 900;
+  font: 12px;
+  max-width: auto;
+  border-radius: 2px;
+  top: 0px;
+  left: 0px;
+}

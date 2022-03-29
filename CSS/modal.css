@@ -1,0 +1,95 @@
+.modal-container {
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.39);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container.ativo {
+  display: flex;
+
+}
+
+.modal {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  border: 5px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 15px 25px 0px black;
+  position: relative;
+  
+}
+
+@keyframes a {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ativo .modal {
+  animation: a 0.7s forwards;
+}
+
+.modal h1 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.fechar {
+  width: 50px;
+  height: 50px;
+  top: -30px;
+  right: -30px;
+  position: absolute;
+  border: 3px solid white;
+  border-radius: 100%;
+  box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.39);
+  background-color: #00ffdd;
+  font-weight: 100;
+  font-size: 25px;
+  cursor: pointer;
+}
+.fechar:hover{
+
+background-color: #ff0000;
+transform: rotate(180deg);
+transition: .3s;
+}
+
+.modal label {
+  display: block;
+  margin: 1rem 0.5rem;
+}
+
+.modal button[type="submit"] {
+  display: block;
+  background-color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  margin: 20px 0px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+.modal button[type="submit"]:hover{
+  background-color: #00ffdd;
+  transition: .3s;
+}
+.modal-tenis img {
+  min-height: 600px;
+  min-width: 600px;
+}

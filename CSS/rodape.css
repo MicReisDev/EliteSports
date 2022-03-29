@@ -1,0 +1,76 @@
+.rodape-bg {
+  background: black;
+  color: white;
+}
+.rodacontato h1 {
+  color: white;
+}
+
+.rodape-bg a {
+  color: white;
+}
+
+.rodape-bg p:hover {
+  opacity: 50%;
+  color: #00ffdd;
+  transition: 0.3s;
+}
+
+.rodape {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr;
+  padding-top: 60px;
+}
+
+.rodape h1 {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+.rodabik h1 {
+  font-size: 28px;
+}
+
+.rodape p,
+h2 {
+  color: var(--cor-6);
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.rodaredes {
+  display: flex;
+  gap: 35px;
+  cursor: pointer;
+}
+
+.contatodetalhe {
+  border-bottom: 2px solid;
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+.rodainfo p {
+  font-weight: 200;
+}
+
+.rodainfo {
+  padding-left: 35px;
+}
+
+.rodape-bottom {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.rodape-bottom h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 70px 0px;
+  display: block;
+}
+.h2 {
+  padding: 20px 0px;
+}
