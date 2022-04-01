@@ -24,7 +24,6 @@ sair.addEventListener("click", saindo)
 window.addEventListener("click", function(event){if (event.target == ativo){saindo()} })
 
 const tamanho = document.querySelectorAll(".num")
-
 tamanho.forEach((i)=>{
 
   function selec(){

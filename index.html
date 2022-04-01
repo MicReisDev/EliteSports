@@ -31,31 +31,52 @@
           <h1 class="texto-pequeno"> <a href="" data-modal="abrir" classe="abrir"> Entre ou cadastre-se</a></h1>
           <h2 class="texto-pequeno"><a href="">Meus pedidos</a></h2>
         </div>
-      </section>
 
+      </section>
+      <div class="compras"><img src="img/geral/carrinho-de-compras.png" alt=""></div>
     </section>
   </nav>
   <div class="nav2-bg">
     <div class="nav2-container">
-      <ul>
-        <li> <a href="">óculos</a> </li>
-        <li> <a href="">acessórios</a> </li>
-        <li> <a href="">vestuário</a></li>
-        <li> <a href="">cosméticos</a></li>
+      <ul class="nav2-container-lista">
+        <li class="nav2-container-item"><a href="">óculos</a>
+          <ul class="drop-menu-nav2">
+            <li><a href="">Oakley</a></li>
+            <li><a href="">Ray-Ban</a></li>
+            <li><a href="">Chilli Beans</a></li>
+            <li><a href="">D&G</a></li>
+            <li><a href="">Exclusivos</a></li>
+          </ul>
+         </li>
+         <li class="nav2-container-item"> <a href="">acessórios</a> 
+          <ul class="drop-menu-nav2">
+            <li><a href="">Smarth Band</a></li>
+            <li><a href="#colecoes-bg">meias</a></li>
+            <li><a href="#lançamentos">braçadeiras</a></li>
+            <li><a href="#HYPE">brincos personalizados</a></li>
+          </ul>
+        </li>
+        <li class="nav2-container-item"> <a href="">vestuário</a>
+          <ul class="drop-menu-nav2">
+            <li><a href="">Camisetas</a></li>
+            <li><a href="#colecoes-bg">Blusas e moletons</a></li>
+            <li><a href="#lançamentos">calças</a></li>
+            <li><a href="#HYPE">shorts</a></li>
+          </ul>
+        </li>
+        <li class="nav2-container-item"> <a href="">cosméticos</a>
+          <ul class="drop-menu-nav2">
+            <li><a href="">Base</a></li>
+            <li><a href="#colecoes-bg">protetor</a></li>
+            <li><a href="#lançamentos">linha elite de beleza</a></li>
+
+          </ul>
+        </li>
       </ul>
     </div>
+    <img src="img/geral/home.webp" alt="">
   </div>
-  <section  class="home-bg">
-    <div class="home">
-    <h1>
-      Bem-Vindo a ELITE SPORTS</a>
-    </h1>
-    <br>
-    <p class="texto-médio">
-      Conosco você confere os principais <a href="#lançamentos">lançamentos</a> das principais marcas, inclusive o que esta no <a href="#HYPE">HYPE</a> do momento.<span>|</span>
-    </p>
-  </div>
-  </section>
+
   <section class="carrosel-bg">
     <h1 class="texto-grande">O QUE DE NOVO <span class="ponto">?</span></h1>
     <div class="carrosel">
@@ -71,12 +92,6 @@
     </div>
   </section>
 
-  <section class="info-bg">
-    <div class="info-container">
-      <h1> Você sabia que a Elite Sports por ano distribui <span class="numero ponto">1520</span> chuteiras em comunidades e bairros carentes afim de fomentar o esporte nacional? </h1>
-    </div>
-  </section>
-
   <section class="colecoes-bg" id="colecoes-bg">
     <div class="colecoes-container">
       <h1>
@@ -85,10 +100,19 @@
     </div>
     <div class="cole-img">
       <div class="cole-item"><img src="img/shadow-elite/60a41ee1418965f5f3f3d3754e69c948_720x.webp" alt="">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet doloremque debitis eos itaque accusamus obcaecati velit rem asperiores mollitia sed placeat dignissimos blanditiis sapiente quia ipsa saepe, minima tenetur? Fugiat.</p>
+
       </div>
-      <div class="cole-item"><img src="img/shadow-elite/sq_lifestyle_Influencers_Pay_Double_RUN_Lifestyle_004_720x.webp" alt=""><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet doloremque debitis eos itaque accusamus obcaecati velit rem asperiores mollitia sed placeat dignissimos blanditiis sapiente quia ipsa saepe, minima tenetur? Fugiat.</p></div>
+      <div class="cole-item"><img src="img/geral/coleção4.webp" alt="">
+      </div>
     </div>
+    <div class="cole-img">
+      <div class="cole-item"><img src="img/geral/coleção3.webp" alt="">
+
+      </div>
+      <div class="cole-item"><img src="img/shadow-elite/sq_lifestyle_Influencers_Pay_Double_RUN_Lifestyle_004_720x.webp" alt="">
+      </div>
+    </div>
+
   </section>
 
   <section class="modal-container" data-modal="conteudo">
@@ -112,19 +136,63 @@
     </div>
   </section>
   <main>
+    <section class="modal-compra-bg">
+      <div class="modal-compra-container">
+        <div class="modal-compra-container-esquerda">
+          <img src="" alt="">
+
+        </div>
+        <div class="modal-compra-container-direita">
+          <p class="texto-grande nomeDoT" ></p>
+          <p class="texto-grande">valor: R$ <span class="preco"> </span>,00</p>
+          <div class="modal-compra-container-direita-texto">
+          <h1 class=""> Você não selecionou o tamanho</h1><span class="tamanho-selec"></span></div>
+          <div class="alterar-t">alterar tamanho</div>
+          <div class="tamanhos-carrinho">
+          <div class="tamanhos" id="tamanhos">
+            <input type="button" value="38" class="num">
+            <input type="button" value="39" class="num">
+            <input type="button" value="40" class="num">
+            <input type="button" value="41" class="num">
+            <input type="button" value="42" class="num">
+            <input type="button" value="43" class="num">
+          </div>
+        </div>
+          <button class="btn adc">Adcionar ao carrinho</button>
+
+        </div>
+      </div>
+    </section>
+    <section class="continuar-comprando-bg">
+      <div class="continuar-comprando-container">
+        <div class="aviso-compra">
+          <button class="btn" id="continuar">continuar comprando</button>
+          <button class="btn" id="carrinho-de-compras">ir para o carrinho</button>
+        </div>
+      </div>
+    </section>
+    <section class="car-compras-bg">
+      <section class="car-compras-container">
+      <section class="car-compras">
+          <div><h1>Itens:</h1></div>
+      </section>
+      <div class="total"></div>
+      <button class="btn pagar">Pagar</button>
+    </section>
+  </section>
     <section class="lançamentos" id="lançamentos">
       <h4 class="texto-enorme">Lançamentos<span class="ponto">.</span> </h4>
       <div class="lista-tenis">
-        <div class="tenis"><img src="img/tenis/tenis-w-air-max-90-DA8726-100-3-31621541066.webp" alt="">
+        <div class="tenis"><img src="img/tenis/tenis-w-air-max-90-DA8726-100-3-31621541066.webp" alt="Air-Max-90" value="500">
           <a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <div>
-              <button class="btn">
-                comprar
-              </button>
-            </div>
+
+            <button class="btn car">
+              comprar
+            </button>
+
             <div class="tamanhos">
               <h1 class="texto-pequeno"> Selecione o tamanho:</h1>
               <input type="button" value="38" class="num">
@@ -136,11 +204,11 @@
             </div>
           </div>
         </div>
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-zoom-tempo-next-masculino-CI9923-800-3.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-zoom-tempo-next-masculino-CI9923-800-3.webp" alt="Air-Zoom" value="600"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -154,11 +222,11 @@
             </div>
           </div>
         </div>
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-90-edicao-especial-feminino-DD5483-010-5.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-90-edicao-especial-feminino-DD5483-010-5.webp" alt="Air-Max-90-Espcial-Edition" value="900"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -174,12 +242,12 @@
         </div>
       </div>
       <div class="lista-tenis">
-        <div class="tenis"><img src="img/tenis/adidas1.webp" alt="">
+        <div class="tenis"><img src="img/tenis/adidas1.webp" alt="Adidas-1" value="300">
           <a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -194,29 +262,29 @@
           </div>
 
         </div>
-        <div class="tenis"><img src="img/tenis/adidas2.webp" alt=""><a href=""><a href="">
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
-            </a>
-            <div class="infos">
-              <button class="btn">
-                comprar
-              </button>
-              <div class="tamanhos">
-                <h1 class="texto-pequeno"> Selecione o tamanho:</h1>
-                <input type="button" value="38" class="num">
-                <input type="button" value="39" class="num">
-                <input type="button" value="40" class="num">
-                <input type="button" value="41" class="num">
-                <input type="button" value="42" class="num">
-                <input type="button" value="43" class="num">
-              </div>
-            </div>
-        </div>
-        <div class="tenis"><img src="img/tenis/adidas3.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/adidas2.webp" alt="Adidas-2" value="200"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
+              comprar
+            </button>
+            <div class="tamanhos">
+              <h1 class="texto-pequeno"> Selecione o tamanho:</h1>
+              <input type="button" value="38" class="num">
+              <input type="button" value="39" class="num">
+              <input type="button" value="40" class="num">
+              <input type="button" value="41" class="num">
+              <input type="button" value="42" class="num">
+              <input type="button" value="43" class="num">
+            </div>
+          </div>
+        </div>
+        <div class="tenis"><img src="img/tenis/adidas3.webp" alt="Adidas-3" value="600"><a href="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
+          </a>
+          <div class="infos">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -236,12 +304,12 @@
     <section class="HYPE" id="HYPE">
       <h4 class="texto-enorme">HYPE<span class="ponto">.</span> </h4>
       <div class="lista-tenis">
-        <div class="tenis"><img src="img/tenis/tenis-w-air-max-90-DA8726-100-3-31621541066.webp" alt="">
+        <div class="tenis"><img src="img/tenis/tenis-w-air-max-90-DA8726-100-3-31621541066.webp" alt="Air-Max-90" value="900">
           <a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -256,11 +324,11 @@
           </div>
 
         </div>
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-zoom-tempo-next-masculino-CI9923-800-3.webp" alt=""> <a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-zoom-tempo-next-masculino-CI9923-800-3.webp" alt="Air-Zoom" value="750"> <a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -274,11 +342,11 @@
             </div>
           </div>
         </div>
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-90-edicao-especial-feminino-DD5483-010-5.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-90-edicao-especial-feminino-DD5483-010-5.webp" alt="Air-Max-90-Espcial-Edition" value="1000"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -294,12 +362,12 @@
         </div>
       </div>
       <div class="lista-tenis">
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-97-masculino-921826-101-1.webp" alt="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-97-masculino-921826-101-1.webp" alt="Air-Max-97" value="900">
           <a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -314,11 +382,11 @@
           </div>
         </div>
 
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-up-feminino-CZ1639-100-1.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-up-feminino-CZ1639-100-1.webp" alt="Air-Max-UP" value="450"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -332,11 +400,11 @@
             </div>
           </div>
         </div>
-        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-2021-feminino-DA1923-500-1-11626190286.webp" alt=""><a href="">
+        <div class="tenis"><img src="img/tenis/tenis-nike-air-max-2021-feminino-DA1923-500-1-11626190286.webp" alt="Air-Max-Feminino-2022" value="650"><a href="">
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ab atque eveniet delectus voluptates consequuntur sint quo nihil laudantium recusandae omnis nostrum excepturi, dicta minus doloribus natus cum rerum nobis!</p>
           </a>
           <div class="infos">
-            <button class="btn">
+            <button class="btn car">
               comprar
             </button>
             <div class="tamanhos">
@@ -369,7 +437,11 @@
 
     </div>
   </section>
-
+  <section class="info-bg">
+    <div class="info-container">
+      <h1> Você sabia que a Elite Sports por ano distribui <span class="numero ponto">1520</span> chuteiras em comunidades e bairros carentes afim de fomentar o esporte nacional? </h1>
+    </div>
+  </section>
   <footer class="rodape-bg">
     <div class="rodape">
       <div class="rodabik">
@@ -417,7 +489,7 @@
     </div>
 
   </footer>
-  <script src="modal2.js"></script>
+
   <script type="module" src="./javaScript/script.js"></script>
 </body>
 

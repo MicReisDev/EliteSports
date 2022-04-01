@@ -93,3 +93,12 @@ transition: .3s;
   min-height: 600px;
   min-width: 600px;
 }
+
+.modal h2> a{
+  color: white;
+}
+
+.modal h2> a:hover{
+  color: aqua;
+  transition: .3s;
+}

@@ -7,6 +7,8 @@
 @import url(linhashadow.css);
 @import url(colecoes.css);
 @import url(dropMenu.css);
+@import url(compras.css);
+@import url(dropmenu2.css);
 
 body, h1, h2, h3, section, nav, div, footer, a, p{
 padding: 0;

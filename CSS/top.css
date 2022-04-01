@@ -12,7 +12,6 @@
   z-index: 99;
   background-color: black;
   padding: 0px;
-  cursor: pointer;
   width: 100vw;
   margin-bottom: 0px;
 }
@@ -21,7 +20,7 @@
   max-width: 1200px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
+  grid-template-columns: auto auto auto auto;
   align-items: center;
   color: white;
   gap: 20px;
@@ -108,10 +107,11 @@ header li a {
 .nav2-bg {
   border-top: 1px solid gray;
   background-color: rgba(0, 0, 0, 0.856);
+  margin-bottom:20px ;
 
 }
 
-.nav2-bg ul {
+.nav2-bg ul.nav2-container-lista {
   margin: 0;
   padding: 2px 20px;
   padding-top: 20px;
@@ -119,111 +119,34 @@ header li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+
 }
 
-.nav2-bg li a {
+.nav2-bg ul.nav2-container-lista li a {
   color: white;
   padding-bottom: 5px;
 padding: 0px 35px;
   display: block;
   position: relative;
   text-transform: uppercase;
+  padding-bottom: 12px;
 }
 
-.nav2-bg li a:hover {
+.nav2-bg ul.nav2-container-lista li a:hover {
   color: wheat;
 
-  height: 100%;
 }
 
-.nav2-bg li {
-  padding-bottom: 10px;
-  border-bottom: 3px solid rgb(36, 36, 36);
-}
-.nav2-bg li:hover {
+
+ul.nav2-container-lista li:hover {
   color: wheat;
   transition: 0.3s;
-  border-bottom: 3px solid wheat;
-}
-.home-bg {
-  height: 600px;
-  background-image: url(../img/carrosel/divesidade.webp);
-  background-position: top;
-  margin-bottom: -400px;
-}
-.home {
-  text-align: center;
-  font-size: 32px;
-  display: grid;
-  justify-content: center;
-  padding: 10px 0;
 
-  text-shadow: 2px 2px 5px white;
 }
 
-.home a {
-  color: black;
-  align-self: end;
-}
-.home p {
-  grid-row: 2;
-  align-self: end;
-}
 
-.home a {
-  text-transform: uppercase;
-  border-bottom: 1px solid black;
-}
-.home a:hover {
-  color: #00ffdd;
-  transition: 0.2s;
-  border-bottom: 1px solid #00ffdd;
-}
-
-.home span {
-  animation: pisca 500ms infinite normal;
-}
-
-@keyframes pisca {
-  from {
-    color: white;
-  }
-  to {
-    color: transparent;
-  }
-}
-.home h1 {
-  z-index: 98;
-  overflow: hidden;
-  white-space: nowrap;
-  height: 100px;
-  animation: elite 3s 0.5s normal;
-}
-
-.home p {
-  overflow: hidden;
-  white-space: nowrap;
-  height: 100px;
-  animation: texto 4s 2s both;
-}
-
-@keyframes texto {
-  from {
-    width: 0;
-  }
-  to {
-    width: 1300px;
-  }
-}
-
-@keyframes elite {
-  from {
-    margin-top: -100px;
-    height: 0;
-  }
-
-  to {
-    margin: 0;
-    height: 100px;
-  }
+.compras{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
