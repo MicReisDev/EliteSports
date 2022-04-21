@@ -18,7 +18,7 @@ const btnPagamento = document.querySelector(".pagar")
 
 abrirC.addEventListener("click",ativaCar)
 
-const carrinho = []
+let carrinho = []
 
 let i = 0
 
@@ -109,6 +109,7 @@ function ativaCar(){
     fecharJanela(closer)
   })
   }
+  console.log(carrinho)
 }
 
 
@@ -140,9 +141,11 @@ function removerA(event){
 
 function limparDados(){
   const itemD = document.querySelectorAll(".item")
-  itemD.forEach((i)=>{
+  itemD.forEach((i,posi)=>{
 
-    inserirCarrinho.removeChild(i)
+    const carrinhoRemovido = document.querySelector(".car-compras")
+    carrinhoRemovido.removeChild(i)
+
 
   })
 }
@@ -152,7 +155,7 @@ function limparDados(){
 function fecharJanela(closer){
 
 
-closer.forEach((i)=>{
+closer.forEach((i,posi)=>{
 i.addEventListener("click",removerTenis)
 function removerTenis(event){
     const somi = event.target.parentElement.querySelector(".valorP")
@@ -165,14 +168,22 @@ function removerTenis(event){
     alteraValor(valorSub)
 
   
-  
+    const novoCar = carrinho.filter(filtro)
+    function filtro(iten, index){
+     return (index !== posi)
+    }
+    carrinho = novoCar
+
 }
 })
 
 }
 
 function alteraValor(v){
-  carrinho.pop()
+
+
+
+
 const Novototal = document.querySelector(".total")
 const novoV = +Novototal.innerText.slice(15,19).replace(","," ").trim()
 
