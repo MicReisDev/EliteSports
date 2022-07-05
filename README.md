@@ -14,4 +14,10 @@ Criei a parte visual do site apenas com Java Script, HTML e CSS "puro", pois nã
 + Excluir o item do carrinho de compras
 + Continuar comprando ou finalizar a compra com todos os itens do carrinho e seus valores somados
 
+![selecionando o numero](https://user-images.githubusercontent.com/93170578/177228353-622639ce-96e2-46b3-8806-9b6f243abf11.png)
+![adc ao carrinho](https://user-images.githubusercontent.com/93170578/177228351-835bc61b-cfc0-41ad-966e-24e66f207b7f.png)
+![finalizar compra](https://user-images.githubusercontent.com/93170578/177228352-3712b8ac-3e05-4000-b871-2b3522d01ac9.png)
+
+
+
 ### Ao baixar a dependencia só é necessário abrir o index.html
