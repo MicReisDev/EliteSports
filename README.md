@@ -1,6 +1,8 @@
 # EliteSports🔥
 Elite sports, site fictício criado com o intuito de treinar meus conhecimentos de UX Design e Java Script.
 
+Deploy na heroku(ainda não possui atualização de responsívidade) - https://eliteesports.herokuapp.com/
+
 Criei a parte visual do site apenas com Java Script, HTML e CSS "puro", pois não utilizei nenhuma biblioteca ou framework.
 
 ![Captura de tela 2022-07-04 212526](https://user-images.githubusercontent.com/93170578/177228176-99b07fdd-9142-4180-99bc-c34dc7a99660.png)
